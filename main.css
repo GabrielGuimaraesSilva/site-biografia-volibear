@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: 'Beauforty-Heavy';
+    src: url(fonts/BeaufortforLOL-Heavy.ttf);
+}
+
+@font-face {
+    font-family: 'Beauforty-BoldItalic';
+    src: url(fonts/BeaufortforLOL-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Beauforty-Regular';
+    src: url(fonts/BeaufortforLOL-Regular.ttf);
+}
+
+body {
+    background-image: url(images/freijord.jpg)
+}
+
+header {
+    padding: 16px 0;
+    background-color: #091428;
+    color: #C89B3C;
+    font-family: 'Beauforty-Heavy';
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: #C8AA6E;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header .container h1 {
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.biography {
+    position: relative;
+}
+
+section .champion-specifications img {
+    height: 50px;
+    width: 50px;
+}
+
+.champion-specifications li {
+    display: inline;
+}
+
+.container img {
+    width: 400px;
+    height: 300px;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+.champion-volibear {
+    margin-right: 32px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-family: 'Beauforty-BoldItalic';
+    color: #C89B3C;
+}
+
+section h3 {
+    font-family: 'Beauforty-BoldItalic';
+    color: #C89B3C;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 12px;
+    font-family: 'Beauforty-Regular';
+    color: rgb(214, 214, 214)
+}
+
+.social-links img {
+    height: 24px;
+    width: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contatc .container {
+    display: block;
+}
+
+.contatc-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: rgb(208, 208, 208);
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    background-color: #C89B3C;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Beauforty-Regular';
+    color: #091428;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #C8AA6E;
+}
+
+input:focus {
+    outline-color: #C8AA6E;
+}
+
+footer {
+    background-color: #091428;
+    color: aliceblue;
+    padding: 16px 0;
+    text-align: center;
+}
+
+#stores li {
+    display: inline;
+}
+
+#stores li img {
+    height: 45px;
+    width: 150px;
+}
