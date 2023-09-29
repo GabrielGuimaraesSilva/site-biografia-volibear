@@ -1,9 +1,9 @@
 # Projeto Volibear - A Tempestade Implacável
 
-Este repositório contém os arquivos para o site dedicado ao Volibear, um personagem possivelmente relacionado ao jogo League of Legends. O projeto demonstra minha evolução nos estudos de desenvolvimento web.
+Este repositório contém os arquivos para o site dedicado ao Volibear, um personagem relacionado ao jogo League of Legends. O projeto demonstra minha evolução nos estudos de desenvolvimento web.
 
-![Volibear](Volibear.jpg)
-![Região Freljord](Região-Freljord.webp)
+![Volibear](imagens/Volibear.jpg)
+![Região Freljord](imagens/Região-Freljord.webp)
 
 ## Estrutura do Projeto
 
@@ -23,6 +23,7 @@ O projeto contém os seguintes arquivos e diretórios:
 ## Como Visualizar o Site
 
 Para visualizar o site, basta abrir o arquivo `index.html` em qualquer navegador web moderno.
+Ou acessar https://site-biografia-volibear.vercel.app/.
 
 ## Conclusão
 
