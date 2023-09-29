@@ -2,8 +2,7 @@
 
 Este repositório contém os arquivos para o site dedicado ao Volibear, um personagem relacionado ao jogo League of Legends. O projeto demonstra minha evolução nos estudos de desenvolvimento web.
 
-![Volibear](imagens/Volibear.jpg)
-![Região Freljord](imagens/Região-Freljord.webp)
+![Volibear](images/Bio-volibear.png)
 
 ## Estrutura do Projeto
 
